@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiDarioProjetoFinal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+322d51b7f575b3a75df9cc8af4eeb90cc0157f9d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c0da0d72d8ac2e05adc2663ec4e1776d126a59f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiDarioProjetoFinal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiDarioProjetoFinal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

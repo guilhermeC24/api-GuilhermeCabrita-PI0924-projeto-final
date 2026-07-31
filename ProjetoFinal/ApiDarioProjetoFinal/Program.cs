@@ -14,7 +14,7 @@ builder.Services.AddMemoryCache();
 
 builder.Services.AddScoped<CacheServico>();
 
-// HttpClient com Polly Retry
+// HttpClient com Polly Retry 
 builder.Services.AddHttpClient("PagamentoAPI")
     .AddPolicyHandler(ConfiguracaoPolly.CriarFallback())
     .AddPolicyHandler(ConfiguracaoPolly.CriarCircuitBreaker())
@@ -75,6 +75,7 @@ builder.Services.AddSwaggerGen(options =>
 var app = builder.Build();
 
 app.UseSwagger();
+
 app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
