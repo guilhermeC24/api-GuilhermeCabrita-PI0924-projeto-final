@@ -1,0 +1,15 @@
+{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2026-07-31T11:17:37.576Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2026-07-31T11:17:37.599Z"}
+{"level":"info","message":"[http:4545 ServicoPagamentoMock] Open for business...","timestamp":"2026-07-31T11:17:37.602Z"}
+{"level":"info","message":"[mb:2525] GET /images/book.jpg","timestamp":"2026-07-31T11:17:52.178Z"}
+{"level":"info","message":"[http:4545 ServicoPagamentoMock] ::1:29001 => GET /","timestamp":"2026-07-31T11:17:55.712Z"}
+{"level":"info","message":"[http:4545 ServicoPagamentoMock] no predicate match, using default response","timestamp":"2026-07-31T11:17:55.713Z"}
+{"level":"info","message":"[http:4545 ServicoPagamentoMock] ::1:16237 => GET /favicon.ico","timestamp":"2026-07-31T11:17:55.727Z"}
+{"level":"info","message":"[http:4545 ServicoPagamentoMock] no predicate match, using default response","timestamp":"2026-07-31T11:17:55.728Z"}
+{"level":"info","message":"[http:4545 ServicoPagamentoMock] ::1:29068 => GET /","timestamp":"2026-07-31T11:17:58.812Z"}
+{"level":"info","message":"[http:4545 ServicoPagamentoMock] no predicate match, using default response","timestamp":"2026-07-31T11:17:58.813Z"}
+{"level":"info","message":"[http:4545 ServicoPagamentoMock] ::1:30845 => GET /favicon.ico","timestamp":"2026-07-31T11:17:58.825Z"}
+{"level":"info","message":"[http:4545 ServicoPagamentoMock] no predicate match, using default response","timestamp":"2026-07-31T11:17:58.826Z"}
+{"level":"info","message":"[mb:2525] GET /images/book.jpg","timestamp":"2026-07-31T11:18:02.071Z"}
+{"level":"info","message":"[http:4545 ServicoPagamentoMock] ::ffff:127.0.0.1:2228 => POST /payments","timestamp":"2026-07-31T11:52:35.854Z"}
+{"level":"info","message":"[http:4545 ServicoPagamentoMock] ::ffff:127.0.0.1:2229 => POST /payments","timestamp":"2026-07-31T11:52:40.135Z"}

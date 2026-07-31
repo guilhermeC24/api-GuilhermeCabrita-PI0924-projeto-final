@@ -1,0 +1,6 @@
+@ApiDarioProjetoFinal_HostAddress = http://localhost:5122
+
+GET {{ApiDarioProjetoFinal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

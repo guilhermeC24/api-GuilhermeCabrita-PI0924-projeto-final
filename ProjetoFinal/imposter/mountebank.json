@@ -1,0 +1,35 @@
+{
+  "imposters": [
+    {
+      "port": 4545,
+      "protocol": "http",
+      "name": "ServicoPagamentoMock",
+      "stubs": [
+        {
+          "predicates": [
+            {
+              "equals": {
+                "method": "POST",
+                "path": "/payments"
+              }
+            }
+          ],
+          "responses": [
+            {
+              "is": {
+                "statusCode": 200,
+                "headers": {
+                  "Content-Type": "application/json"
+                },
+                "body": {
+                  "sucesso": true,
+                  "mensagem": "Pagamento aprovado"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
