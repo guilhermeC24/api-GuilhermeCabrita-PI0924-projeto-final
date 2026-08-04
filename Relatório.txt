@@ -1,0 +1,28 @@
+Relatório do Projeto Final
+
+Nome: Guilherme Cabrita
+
+Neste projeto desenvolvi uma API REST em ASP.NET Core 8 para um sistema de reservas de cinema.
+
+A aplicação permite gerir filmes, utilizadores e reservas através de operações CRUD. Os dados encontram-se armazenados em memória (hardcoded), não sendo utilizada uma base de dados.
+
+Foi implementada autenticação com JWT, permitindo proteger os endpoints da API. O token é obtido através do login e utilizado posteriormente no Swagger para aceder aos endpoints protegidos.
+
+Foi também criado um serviço externo de pagamentos utilizando o Mountebank, sendo a comunicação realizada através do HttpClientFactory. Para aumentar a fiabilidade dessa comunicação foram implementadas políticas de Retry, Circuit Breaker e Fallback utilizando a biblioteca Polly.
+
+Além disso, foi implementado um sistema de cache em memória para otimizar os pedidos GET e melhorar o desempenho da aplicação.
+
+
+Testes realizados:
+
+Foram testados todos os endpoints através do Swagger.
+
+Foi confirmado o funcionamento do login e da autenticação JWT, bem como todas as operações CRUD de filmes, utilizadores e reservas.
+
+Também foi testada a comunicação com o serviço externo de pagamentos e verificado o correto funcionamento das políticas de resiliência implementadas com Polly.
+
+Por fim, foram realizados testes à cache em memória, confirmando o correto funcionamento da API.
+
+Conclusão
+
+Com este projeto consegui aplicar os principais conceitos abordados durante o módulo, como o desenvolvimento de APIs REST, autenticação JWT, integração com serviços externos, cache em memória e resiliência com Polly. Todos os testes realizados obtiveram os resultados esperados.
